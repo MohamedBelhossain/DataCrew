@@ -1,6 +1,6 @@
 # DataCrew club website
 
-A responsive, static landing page for the DataCrew Data & AI Club at FST Al Hoceima. It uses plain HTML, CSS, and JavaScript, so it can be deployed to any static host (GitHub Pages, Netlify, Cloudflare Pages, or an Nginx web root) without a build step.
+A responsive static site for the DataCrew Data & AI Club at FST Al Hoceima, with persistent dark/light themes and English, French, and Arabic translations. It uses plain HTML, CSS, and JavaScript, so it can be deployed to any static host without a build step.
 
 ## Preview locally
 
@@ -14,8 +14,8 @@ Then visit `http://localhost:8000`.
 
 ## Update before launch
 
-- Replace the sample email address (`datacrew.fst@gmail.com`) with the club's confirmed contact.
+- Confirm the club contact email (`joindatacrew@gmail.com`) and application form before launch.
 - Add verified social links and event details when available.
-- The poster, logo, cropped transparent wordmark, and FST Al Hoceima campus photo are in `assets/`; replace the corresponding files there to update the imagery.
+- The logo, transparent wordmark, and FST Al Hoceima campus photo are in `assets/`; replace those files to update the imagery.
 
 The page has no backend or external runtime dependency. Google Fonts are loaded from their CDN; system fallbacks are defined in the stylesheet.
