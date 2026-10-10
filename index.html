@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#091735">
+  <meta name="theme-color" content="#09152f">
   <title>DataCrew — Data &amp; AI Club | FST Al Hoceima</title>
   <meta name="description" content="DataCrew is the Data &amp; AI Club at FST Al Hoceima. Explore data, learn together, and build useful things.">
 
@@ -18,7 +18,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
@@ -30,6 +30,18 @@
       <img src="assets/datacrew-wordmark.png" alt="DataCrew — Data &amp; AI Club">
     </a>
 
+    <div class="header-tools">
+      <button class="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="false" title="Switch theme">
+        <span class="theme-icon" aria-hidden="true">☼</span>
+      </button>
+      <label class="visually-hidden" for="language-select">Choose language</label>
+      <select class="language-select" id="language-select" aria-label="Choose language">
+        <option value="en">EN</option>
+        <option value="fr">FR</option>
+        <option value="ar">عربي</option>
+      </select>
+    </div>
+
     <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav">
       <span></span><span></span>
     </button>
@@ -39,7 +51,7 @@
       <a href="#events">LEARNING</a>
       <a href="#team">COMMUNITY</a>
       <a href="#contact">CONTACT</a>
-      <a class="nav-cta" href="#join">JOIN</a>
+      <a class="nav-cta" href="https://docs.google.com/forms/d/e/1FAIpQLSdlDFVclh863BlwlTyJbKP2r7-fE2IyGFYGOTZE3i0wzwxIHA/viewform?usp=publish-editor">JOIN</a>
     </nav>
   </header>
 
@@ -53,7 +65,7 @@
           <h1>Turn data<br>into <span>discovery.</span></h1>
           <p>We’re DataCrew, the Data &amp; AI Club at FST Al Hoceima. Explore data science, learn how intelligent systems work, and turn questions into insight—together.</p>
           <div class="hero-actions">
-            <a class="button button-gold" href="#join">Join the community <span aria-hidden="true">→</span></a>
+            <a class="button button-gold" href="https://docs.google.com/forms/d/e/1FAIpQLSdlDFVclh863BlwlTyJbKP2r7-fE2IyGFYGOTZE3i0wzwxIHA/viewform?usp=publish-editor">Join the community <span aria-hidden="true">→</span></a>
             <a class="text-link" href="#events">Explore the learning path <span aria-hidden="true">↓</span></a>
           </div>
           <p class="hero-meta"><span>DATA SCIENCE · AI · ANALYTICS</span><span>FST AL HOCEIMA</span></p>
@@ -70,7 +82,7 @@
             <path class="chart-area" d="m82 276 94-62 89 32 97-111 94 24 106-101v264H82V276Z"/>
             <path class="chart-line" d="m82 276 94-62 89 32 97-111 94 24 106-101"/>
             <g class="chart-point"><circle cx="82" cy="276" r="6"/><circle cx="176" cy="214" r="6"/><circle cx="265" cy="246" r="6"/><circle cx="362" cy="135" r="6"/><circle cx="456" cy="159" r="6"/><circle class="chart-point-highlight" cx="562" cy="58" r="7"/></g>
-            <g class="chart-annotations"><text x="64" y="352">QUESTION</text><text x="263" y="352">PATTERN</text><text x="500" y="352">INSIGHT</text></g>
+            <g class="chart-annotations"><text class="chart-question" x="64" y="352">QUESTION</text><text class="chart-pattern" x="263" y="352">PATTERN</text><text class="chart-insight" x="500" y="352">INSIGHT</text></g>
           </svg>
           <div class="visual-caption"><span>Ask better questions.</span><span>Find meaning in data.</span></div>
         </div>
@@ -137,7 +149,7 @@
 
       <div class="team-grid">
         <article class="team-card">
-          <div class="avatar"><img src="assets/datacrewlogo.jpg" alt="" width="64" height="64" loading="lazy"></div>
+          <div class="avatar"><span class="avatar-mark" aria-hidden="true">DC</span></div>
           <span class="team-role">// EXPLORE</span>
           <h3>Find the signal</h3>
           <p>Look closer at the data, test assumptions, and ask what else it can tell us.</p>
@@ -157,7 +169,7 @@
           <span class="team-role">// BUILD</span>
           <h3>Make insight useful</h3>
           <p>Collaborate on projects that turn data discoveries into practical ideas.</p>
-          <a class="card-arrow" href="#join" aria-label="Join DataCrew">↗</a>
+          <a class="card-arrow" href="https://docs.google.com/forms/d/e/1FAIpQLSdlDFVclh863BlwlTyJbKP2r7-fE2IyGFYGOTZE3i0wzwxIHA/viewform?usp=publish-editor" aria-label="Join DataCrew">↗</a>
         </article>
       </div>
     </section>
@@ -169,7 +181,7 @@
         <h2 id="join-title">Bring your<br><span>curiosity.</span></h2>
         <p>Interested in data science, analytics, or AI? Connect with DataCrew and discover how to learn and build with the community.</p>
 
-        <a class="button button-gold full-button" href="mailto:datacrew.fst@gmail.com?subject=Joining%20DataCrew">
+        <a class="button button-gold full-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdlDFVclh863BlwlTyJbKP2r7-fE2IyGFYGOTZE3i0wzwxIHA/viewform?usp=publish-editor">
           Connect with DataCrew <b aria-hidden="true">→</b>
         </a>
 
@@ -214,7 +226,7 @@
 
   <footer class="footer">
     <a class="footer-brand" href="#home">
-      <img src="assets/datacrewlogo.jpg" alt="" width="32" height="32" loading="lazy">
+      <span class="footer-symbol" aria-hidden="true">DC</span>
       <span class="footer-name">DATA<span>CREW</span></span>
       <small>DATA &amp; AI CLUB · FST AL HOCEIMA</small>
     </a>
