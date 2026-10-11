@@ -10,7 +10,7 @@ const translations = {
   fr: {
     'Skip to content': 'Aller au contenu',
     HOME: 'ACCUEIL',
-    LEARNING: 'APPRENTISSAGE',
+    EVENTS: 'ÉVÉNEMENTS',
     TEAM: 'ÉQUIPE',
     CONTACT: 'CONTACT',
     JOIN: 'REJOINDRE',
@@ -23,29 +23,26 @@ const translations = {
     'discovery.': 'découvertes.',
     'Explore data science and AI through collaborative learning and hands-on projects.': 'Explorez la science des données et l’IA grâce à l’apprentissage collectif et aux projets pratiques.',
     'Join the community': 'Rejoindre la communauté',
-    'Explore the learning path': 'Découvrir notre parcours',
+    'Explore upcoming events': 'Voir les événements à venir',
     'Curiosity is': 'La curiosité est',
     our: 'notre',
     'starting point.': 'point de départ.',
-    'We’re the Data & AI Club at the Faculty of Science and Technology of Al Hoceima.': 'Nous sommes le club Data & IA de la Faculté des sciences et techniques d’Al Hoceima.',
+    'We’re the Data & AI Club at the Faculty of Sciences and Techniques of Al Hoceima.': 'Nous sommes le club Data & IA de la Faculté des sciences et techniques d’Al Hoceima.',
     'Members explore datasets, practice analysis, and share what they find. Beginners are welcome.': 'Les membres explorent des jeux de données, s’exercent à l’analyse et partagent leurs découvertes. Les débutants sont les bienvenus.',
-    'Learn by exploring': 'Apprendre en explorant',
-    'real questions.': 'des questions concrètes.',
-    'Use a simple, repeatable process to turn curiosity into a clear explanation.': 'Suivez une démarche simple et reproductible pour transformer une question en explication claire.',
-    '01 / ASK': '01 / QUESTIONNER',
-    'Start with a question': 'Commencer par une question',
-    'Decide what you want to understand before choosing tools or data.': 'Définissez ce que vous cherchez à comprendre avant de choisir les outils ou les données.',
-    '02 / EXPLORE': '02 / EXPLORER',
-    'Look for evidence': 'Chercher des éléments',
-    'Find relevant data, examine patterns, and check your assumptions.': 'Trouvez des données pertinentes, examinez les tendances et vérifiez vos hypothèses.',
-    '03 / SHARE': '03 / PARTAGER',
-    'Explain what you found': 'Expliquer vos résultats',
-    'Communicate the result clearly and invite others to build on it.': 'Présentez clairement vos résultats et invitez les autres à poursuivre la réflexion.',
+    'UPCOMING EVENTS · IN PREPARATION': 'ÉVÉNEMENTS À VENIR · EN PRÉPARATION',
+    'Something big': 'Quelque chose de grand',
+    'is coming soon.': 'arrive bientôt.',
+    'We’re preparing the next DataCrew events. Check back soon.': 'Nous préparons les prochains événements de DataCrew. Revenez bientôt.',
     'Meet the': 'Découvrez',
     'DataCrew team.': 'l’équipe DataCrew.',
-    'Get to know the people behind DataCrew.': 'Faites connaissance avec les personnes qui font vivre DataCrew.',
-    'Name to be added': 'Nom à ajouter',
-    'Club role': 'Rôle au sein du club',
+    'Meet the members who lead, organize, and support DataCrew.': 'Découvrez les membres qui dirigent, organisent et font vivre DataCrew.',
+    President: 'Présidente',
+    'Vice President': 'Vice-président',
+    'Human Resources': 'Ressources humaines',
+    Treasurer: 'Trésorier',
+    'Organizing Committee': 'Comité d’organisation',
+    'Training Lead': 'Responsable de la formation',
+    'Media Lead': 'Responsable média',
     'FST Al Hoceima · Al Hoceima, Morocco': 'FST Al Hoceima · Al Hoceima, Maroc',
     'Become part of the team': 'Rejoindre l’équipe',
     'Ready to': 'Prêt à',
@@ -58,7 +55,7 @@ const translations = {
     'What can I learn with DataCrew?': 'Que puis-je apprendre avec DataCrew ?',
     'Topics include data science, analytics, visualization, machine learning, and artificial intelligence.': 'Les sujets abordés incluent la science des données, l’analyse, la visualisation, l’apprentissage automatique et l’intelligence artificielle.',
     'DATA & AI CLUB · FST AL HOCEIMA': 'CLUB DATA & IA · FST AL HOCEIMA',
-    Learning: 'Apprentissage',
+    Events: 'Événements',
     Team: 'Équipe',
     Contact: 'Contact',
     'Choose language': 'Choisir la langue'
@@ -66,7 +63,7 @@ const translations = {
   ar: {
     'Skip to content': 'انتقل إلى المحتوى',
     HOME: 'الرئيسية',
-    LEARNING: 'التعلّم',
+    EVENTS: 'الفعاليات',
     TEAM: 'الفريق',
     CONTACT: 'اتصل بنا',
     JOIN: 'انضم إلينا',
@@ -79,29 +76,26 @@ const translations = {
     'discovery.': 'اكتشاف.',
     'Explore data science and AI through collaborative learning and hands-on projects.': 'اكتشف علم البيانات والذكاء الاصطناعي من خلال التعلّم الجماعي والمشاريع العملية.',
     'Join the community': 'انضم إلى المجتمع',
-    'Explore the learning path': 'اكتشف مسار التعلّم',
+    'Explore upcoming events': 'اكتشف الفعاليات القادمة',
     'Curiosity is': 'الفضول هو',
     our: 'نقطة',
     'starting point.': 'انطلاقنا.',
-    'We’re the Data & AI Club at the Faculty of Science and Technology of Al Hoceima.': 'نحن نادي البيانات والذكاء الاصطناعي بكلية العلوم والتقنيات بالحسيمة.',
+    'We’re the Data & AI Club at the Faculty of Sciences and Techniques of Al Hoceima.': 'نحن نادي البيانات والذكاء الاصطناعي بكلية العلوم والتقنيات بالحسيمة.',
     'Members explore datasets, practice analysis, and share what they find. Beginners are welcome.': 'يستكشف الأعضاء مجموعات البيانات ويتدرّبون على تحليلها ويتشاركون اكتشافاتهم. نرحّب بالمبتدئين.',
-    'Learn by exploring': 'تعلّم من خلال الاستكشاف',
-    'real questions.': 'أسئلة واقعية.',
-    'Use a simple, repeatable process to turn curiosity into a clear explanation.': 'اتبعوا خطوات بسيطة قابلة للتكرار لتحويل الفضول إلى تفسير واضح.',
-    '01 / ASK': '01 / اسأل',
-    'Start with a question': 'ابدأ بسؤال',
-    'Decide what you want to understand before choosing tools or data.': 'حدّد ما تريد فهمه قبل اختيار الأدوات أو البيانات.',
-    '02 / EXPLORE': '02 / استكشف',
-    'Look for evidence': 'ابحث عن الأدلة',
-    'Find relevant data, examine patterns, and check your assumptions.': 'اعثر على البيانات المناسبة، وافحص الأنماط، واختبر افتراضاتك.',
-    '03 / SHARE': '03 / شارك',
-    'Explain what you found': 'اشرح ما اكتشفته',
-    'Communicate the result clearly and invite others to build on it.': 'اعرض النتائج بوضوح، وشجّع الآخرين على تطويرها.',
+    'UPCOMING EVENTS · IN PREPARATION': 'الفعاليات القادمة · قيد التحضير',
+    'Something big': 'شيء كبير',
+    'is coming soon.': 'قادم قريبًا.',
+    'We’re preparing the next DataCrew events. Check back soon.': 'نحضّر لفعاليات DataCrew القادمة. عُد قريبًا للاطلاع على جديدنا.',
     'Meet the': 'تعرّف على',
     'DataCrew team.': 'فريق DataCrew.',
-    'Get to know the people behind DataCrew.': 'تعرّف على الأشخاص الذين يقفون وراء DataCrew.',
-    'Name to be added': 'سيُضاف الاسم لاحقًا',
-    'Club role': 'الدور في النادي',
+    'Meet the members who lead, organize, and support DataCrew.': 'تعرّف على أعضاء الفريق الذين يقودون DataCrew وينظمون أنشطته ويدعمون أعضاءه.',
+    President: 'الرئيسة',
+    'Vice President': 'نائب الرئيس',
+    'Human Resources': 'الموارد البشرية',
+    Treasurer: 'أمين الصندوق',
+    'Organizing Committee': 'لجنة التنظيم',
+    'Training Lead': 'مسؤولة التكوين',
+    'Media Lead': 'مسؤول الإعلام',
     'FST Al Hoceima · Al Hoceima, Morocco': 'كلية العلوم والتقنيات بالحسيمة · الحسيمة، المغرب',
     'Become part of the team': 'انضم إلى الفريق',
     'Ready to': 'هل أنت مستعد',
@@ -114,7 +108,7 @@ const translations = {
     'What can I learn with DataCrew?': 'ماذا يمكنني أن أتعلم مع DataCrew؟',
     'Topics include data science, analytics, visualization, machine learning, and artificial intelligence.': 'تشمل المواضيع علم البيانات والتحليل والتصوير البياني وتعلّم الآلة والذكاء الاصطناعي.',
     'DATA & AI CLUB · FST AL HOCEIMA': 'نادي البيانات والذكاء الاصطناعي · كلية العلوم والتقنيات بالحسيمة',
-    Learning: 'التعلّم',
+    Events: 'الفعاليات',
     Team: 'الفريق',
     Contact: 'اتصل بنا',
     'Choose language': 'اختر اللغة'
@@ -146,9 +140,9 @@ const footerNavigationLabels = {
 };
 
 const brandLabels = {
-  en: { home: 'DataCrew home', alt: 'DataCrew — Data & AI Club' },
-  fr: { home: 'Accueil DataCrew', alt: 'DataCrew — Club Data & IA' },
-  ar: { home: 'الصفحة الرئيسية لـ DataCrew', alt: 'DataCrew — نادي البيانات والذكاء الاصطناعي' }
+  en: { home: 'DataCrew home' },
+  fr: { home: 'Accueil DataCrew' },
+  ar: { home: 'الصفحة الرئيسية لـ DataCrew' }
 };
 
 const visualLabels = {
@@ -219,7 +213,6 @@ const setLanguage = (language, persist = false) => {
   nav.setAttribute('aria-label', navigationLabels[selectedLanguage]);
   document.querySelector('.footer-links').setAttribute('aria-label', footerNavigationLabels[selectedLanguage]);
   document.querySelector('.brand').setAttribute('aria-label', brandLabels[selectedLanguage].home);
-  document.querySelector('.brand img').alt = brandLabels[selectedLanguage].alt;
   toggle.setAttribute('aria-label', nav.classList.contains('open') ? interfaceLabels[selectedLanguage].close : interfaceLabels[selectedLanguage].open);
   setTheme(document.body.dataset.theme || 'dark');
 
@@ -236,6 +229,46 @@ const setMenuOpen = (open) => {
 
 setLanguage(readPreference('datacrew-language', 'en'));
 setTheme(readPreference('datacrew-theme', 'dark'));
+
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const motionTargets = document.querySelectorAll('.hero-copy, .data-visual, .about-layout > *, .events-empty, .member-card, .join-panel, .faq details');
+  const motionObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -36px 0px' });
+
+  motionTargets.forEach((target) => {
+    target.classList.add('motion-reveal');
+    motionObserver.observe(target);
+  });
+}
+
+if ('IntersectionObserver' in window) {
+  const sectionLinks = [...nav.querySelectorAll('a[href^="#"]')];
+  const sectionObserver = new IntersectionObserver((entries) => {
+    const activeEntry = entries
+      .filter((entry) => entry.isIntersecting)
+      .sort((first, second) => second.intersectionRatio - first.intersectionRatio)[0];
+
+    if (!activeEntry) return;
+
+    sectionLinks.forEach((link) => {
+      const isActive = link.hash === `#${activeEntry.target.id}`;
+      link.classList.toggle('is-active', isActive);
+      if (isActive) link.setAttribute('aria-current', 'location');
+      else link.removeAttribute('aria-current');
+    });
+  }, { rootMargin: '-25% 0px -60% 0px', threshold: 0 });
+
+  sectionLinks.forEach((link) => {
+    const section = document.querySelector(link.hash);
+    if (section) sectionObserver.observe(section);
+  });
+}
 
 toggle.addEventListener('click', () => {
   setMenuOpen(toggle.getAttribute('aria-expanded') !== 'true');
