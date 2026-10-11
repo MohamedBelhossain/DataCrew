@@ -140,9 +140,9 @@ const footerNavigationLabels = {
 };
 
 const brandLabels = {
-  en: { home: 'DataCrew home' },
-  fr: { home: 'Accueil DataCrew' },
-  ar: { home: 'الصفحة الرئيسية لـ DataCrew' }
+  en: { home: 'DataCrew home', alt: 'DataCrew — Data & AI Club' },
+  fr: { home: 'Accueil DataCrew', alt: 'DataCrew — Club Data & IA' },
+  ar: { home: 'الصفحة الرئيسية لـ DataCrew', alt: 'DataCrew — نادي البيانات والذكاء الاصطناعي' }
 };
 
 const visualLabels = {
@@ -213,6 +213,7 @@ const setLanguage = (language, persist = false) => {
   nav.setAttribute('aria-label', navigationLabels[selectedLanguage]);
   document.querySelector('.footer-links').setAttribute('aria-label', footerNavigationLabels[selectedLanguage]);
   document.querySelector('.brand').setAttribute('aria-label', brandLabels[selectedLanguage].home);
+  document.querySelector('.brand img').alt = brandLabels[selectedLanguage].alt;
   toggle.setAttribute('aria-label', nav.classList.contains('open') ? interfaceLabels[selectedLanguage].close : interfaceLabels[selectedLanguage].open);
   setTheme(document.body.dataset.theme || 'dark');
 
